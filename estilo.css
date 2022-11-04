@@ -205,61 +205,6 @@
         margin: 20px 0 0;
     }
     
-    .combos {
-        display: flex;
-        padding: 10em 10em;
-    }
-    
-    .valor {
-        font-size: 1em;
-    }
-    
     h2 {
         font-family: Retrochips;
-    }
-    
-    .combos div:hover {
-        background-color: #ac5606;
-        color: white;
-        width: 35em;
-        height: 15em;
-        margin-top: -2em;
-    }
-    
-    .combo1 {
-        text-align: center;
-        border: 0.2em solid blanchedalmond;
-        background: rgb(220, 172, 109);
-        border-radius: 1em;
-        width: 30em;
-        height: 15em;
-        box-shadow: 10px 10px 5px 0px #000;
-    }
-    
-    .combo2 {
-        text-align: center;
-        border: 0.2em solid blanchedalmond;
-        background: rgb(220, 172, 109);
-        border-radius: 1em;
-        width: 30em;
-        height: 15em;
-        margin-left: 4em;
-        box-shadow: 10px 10px 5px 0px #000;
-    }
-    
-    .combo3 {
-        text-align: center;
-        border: 0.2em solid blanchedalmond;
-        background: rgb(220, 172, 109);
-        border-radius: 1em;
-        width: 30em;
-        height: 15em;
-        margin-left: 4em;
-        box-shadow: 10px 10px 5px 0px #000;
-    }
-    
-    .foto_combo {
-        width: 10em;
-        height: 5em;
-        box-shadow: 10px 10px 5px 0px rgb(106, 71, 43);
     }

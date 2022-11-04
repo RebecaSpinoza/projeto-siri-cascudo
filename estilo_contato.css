@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-family: 'tahoma', "Arial";
+    background: #9ad9cd;
+}
+
+
+/*Estilização da seção HEADER da página*/
+
+header {
+    background: #ac5606;
+    /* width: 1264px; */
+    padding: 0.3em 0;
+    display: flex;
+}
+
+.header_container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-left: 3em;
+    display: inline-block;
+}
+
+
+/*Estilização da seção NAV da página*/
+
+nav {
+    float: right;
+    margin-top: 0.75em;
+    margin-right: 2em;
+}
+
+.lista_menu {
+    top: 0px;
+    left: 0px;
+    padding-left: 0px;
+}
+
+nav li {
+    display: inline-block;
+    width: auto;
+    margin-right: 1em;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #f7a0af;
+}
+
+
+/*estilizacao das listas da pagina*/
+
+ul {
+    list-style: none;
+}
+
+
+/*estilizacao do logotipo*/
+
+.logo_caixa {
+    width: 100%;
+    font-family: Retrochips;
+    color: white;
+    position: relative;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 20px;
+}
+
+.banner {
+    width: 100%;
+    /* width: 1264px; */
+    position: relative;
+    margin: auto;
+}
+
+
+/*Estilização da área "sobre"*/
+
+@font-face {
+    font-family: Retrochips;
+    src: url(Retrochips.otf);
+}
+
+footer {
+    text-align: center;
+    background: #ac5606;
+    padding: 40px 0;
+    margin-top: 15%;
+    color: white;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+h2 {
+    font-family: Retrochips;
+}
+
+.contato-titulo {
+    font-family: retrochips;
+    text-align: center;
+    margin: 2em;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.caixa-form {
+    border-radius: 2em;
+    background: #ac5606;
+    margin-left: 12%;
+    width: 60em;
+    height: 60em;
+    margin-top: 10em;
+}
+
+.caixa-txt-form {
+    margin: 2em;
+    text-align: center;
+    margin-top: 2em;
+}
+
+#email {
+    border-radius: 2em;
+    width: 65em;
+    height: 4em;
+    margin: 1em;
+    text-align: center;
+    margin-top: 2em;
+    box-shadow: 2px 2px 2px #60330a;
+}
+
+#telefone {
+    border-radius: 2em;
+    width: 65em;
+    height: 4em;
+    margin: 1em;
+    text-align: center;
+    margin-top: 2em;
+    box-shadow: 2px 2px 2px #60330a;
+}
+
+#nomesobrenome {
+    border-radius: 2em;
+    width: 65em;
+    height: 4em;
+    margin: 1em;
+    text-align: center;
+    margin-top: 2em;
+    box-shadow: 2px 2px 2px #60330a;
+}
+
+textarea {
+    border-radius: 2em;
+    width: 65em;
+    margin: 1em;
+    box-shadow: 2px 2px 2px #60330a;
+}
+
+label {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+legend {
+    border-radius: 2em;
+}
+
+.enviar {
+    border-radius: 2em;
+    width: 10em;
+    height: 4em;
+    margin: 3em;
+    box-shadow: 2px 2px 2px #60330a;
+}
+
+.contato_texto {
+    color: #ffffff;
+}
+
+select {
+    border-radius: 2em;
+    width: 8em;
+    height: 2em;
+    margin: 1em;
+    box-shadow: 2px 2px 2px #60330a;
+}

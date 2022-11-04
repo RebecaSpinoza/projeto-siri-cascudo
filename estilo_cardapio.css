@@ -1,0 +1,163 @@
+header {
+    background: #ac5606;
+    /* width: 1264px; */
+    padding: 0.3em 0;
+    display: flex;
+}
+
+.header_container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.body_cardapio {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-family: 'tahoma', "Arial";
+    background: #9ad9cd;
+}
+
+h1 {
+    margin-left: 3em;
+    display: inline-block;
+}
+
+h2 {
+    font-family: Retrochips;
+}
+
+nav {
+    float: right;
+    margin-top: 0.75em;
+    margin-right: 2em;
+}
+
+.lista_menu {
+    top: 0px;
+    left: 0px;
+    padding-left: 0px;
+}
+
+nav li {
+    display: inline-block;
+    width: auto;
+    margin-right: 1em;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #f7a0af;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/*estilizacao do logotipo*/
+
+.logo_caixa {
+    width: 100%;
+    font-family: Retrochips;
+    color: white;
+    position: relative;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 20px;
+}
+
+.banner {
+    width: 100%;
+    /* width: 1264px; */
+    position: relative;
+    margin: auto;
+}
+
+@font-face {
+    font-family: Retrochips;
+    src: url(Retrochips.otf);
+}
+
+.footer_cardapio {
+    text-align: center;
+    background: #ac5606;
+    padding: 40px 0;
+    color: white;
+    margin-top: 7%;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+.combos div:hover {
+    background-color: #ac5606;
+    color: white;
+    width: 35em;
+    height: 15em;
+    margin-top: -2em;
+}
+
+.combo1 {
+    text-align: center;
+    background: rgb(220, 172, 109);
+    border-radius: 1em;
+    width: 30em;
+    height: 15em;
+    box-shadow: 10px 10px 5px 0px #37655d;
+    transition: 0.5s;
+}
+
+.combo2 {
+    text-align: center;
+    background: rgb(220, 172, 109);
+    border-radius: 1em;
+    width: 30em;
+    height: 15em;
+    margin-left: 4em;
+    box-shadow: 10px 10px 5px 0px #37655d;
+    transition: 0.5s;
+}
+
+.combo3 {
+    text-align: center;
+    background: rgb(220, 172, 109);
+    border-radius: 1em;
+    width: 30em;
+    height: 15em;
+    margin-left: 4em;
+    box-shadow: 10px 10px 5px 0px #37655d;
+    transition: 0.5s;
+}
+
+.foto_combo {
+    width: 10em;
+    height: 5em;
+    box-shadow: 10px 10px 5px 0px rgb(106, 71, 43);
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 1em;
+}
+
+.combos {
+    display: flex;
+    padding: 10em 10em;
+    margin-top: 5em;
+}
+
+.valor {
+    font-size: 1em;
+}
