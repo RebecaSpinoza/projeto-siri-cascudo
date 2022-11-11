@@ -7,6 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script>
+        alert("Utilize esse formulário para se comunicar conosco!");
+
+        dia = new Array("Domingo", "Segunda-Feira", "Terça-Feira", "Quarta-Feira", "Quinta-Feira", "Sexta-Feira", "Sábado")
+        mes = new Array("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro")
+        data = new Date
+    </script>
 </head>
 
 <body class="body_cardapio">
@@ -36,7 +44,11 @@
                 <ul class="contato-titulo">
 
                     <li class="contato-item">CONTATO</li>
-
+                    <p style="text-align: center; margin-right: 10px;">
+                        <script type="text/javascript">
+                            document.write(dia[data.getDay()] + ", " + data.getDate() + " de " + mes[data.getMonth()] + " de " + data.getFullYear())
+                        </script>
+                    </p>
                 </ul>
 
                 <p class="contato_texto">
@@ -47,7 +59,7 @@
 
                 <p class="contato_texto">
 
-                    Nosso horário de funcionamento: Terça à Domingo das 18h às 23h | (11) 4444-8888
+                    Nosso horário de funcionamento: Terça à Domingo das 18h às 23h | <a class="whatsapp-link" href="https://wa.me/5599111112222" target="_blank"><i class="fa fa-whatsapp"></i></a> (11) 4444-8888
 
                 </p>
 
@@ -57,25 +69,20 @@
 
 
 
-                    <label for="nomesobrenome">Nome e sobrenome</label>
 
-                    <input type="text" id="nomesobrenome" name="" class="input-padrao" required>
-
-
-
-                    <label for="email">E-mail</label>
-
-                    <input type="email" id="email" name="" class="input-padrao" required placeholder="seuemail@dominio.com">
+                    <input placeholder="Nome e sobrenome" type="text" id="nomesobrenome" name="" class="input-padrao" required>
 
 
 
-                    <label for="telefone">Telefone</label>
 
-                    <input type="tel" id="telefone" name="" class="input-padrao" placeholder="(XX) XXXXX-XXXX" </div>
-                    <label for="mensagem">Mensagem</label>
 
-                    <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+                    <input placeholder="E-mail" type="email" id="email" name="" class="input-padrao" required placeholder="seuemail@dominio.com">
 
+                    <input placeholder="telefone com ddd" type="tel" id="telefone" name="" class="input-padrao" placeholder="(XX) XXXXX-XXXX" </div>
+
+
+                    <textarea placeholder="Digite sua mensagem aqui" cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+                    <br>
 
 
                     <label for="contato">Como prefere o nosso contato?
