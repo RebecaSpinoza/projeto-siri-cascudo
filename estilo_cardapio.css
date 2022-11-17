@@ -111,34 +111,13 @@ ul {
     margin-top: -2em;
 }
 
-.combo1 {
+.combo {
     text-align: center;
     background: rgb(220, 172, 109);
     border-radius: 1em;
-    width: 30em;
+    width: 35em;
     height: 15em;
-    box-shadow: 10px 10px 5px 0px #37655d;
-    transition: 0.5s;
-}
-
-.combo2 {
-    text-align: center;
-    background: rgb(220, 172, 109);
-    border-radius: 1em;
-    width: 30em;
-    height: 15em;
-    margin-left: 4em;
-    box-shadow: 10px 10px 5px 0px #37655d;
-    transition: 0.5s;
-}
-
-.combo3 {
-    text-align: center;
-    background: rgb(220, 172, 109);
-    border-radius: 1em;
-    width: 30em;
-    height: 15em;
-    margin-left: 4em;
+    margin: 0 2em;
     box-shadow: 10px 10px 5px 0px #37655d;
     transition: 0.5s;
 }
@@ -154,10 +133,59 @@ ul {
 
 .combos {
     display: flex;
+    justify-content: center;
     padding: 10em 10em;
     margin-top: 5em;
 }
 
 .valor {
     font-size: 1em;
+}
+
+@media (max-width: 800px) {
+    .combos {
+        flex-direction: column;
+        padding: 10em 10em;
+        margin-top: 5em;
+        margin: auto;
+        display: grid;
+    }
+    .combo {
+        width: 30em;
+        height: 15em;
+        margin: 0 2em 2em;
+        font-size: 15px;
+    }
+    h2 {
+        font-size: medium;
+    }
+    .combos div:hover {
+        width: 35em;
+        height: 15em;
+        margin: 2em auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .combos {
+        flex-direction: column;
+        padding: 10em 10em;
+        margin-top: 5em;
+        margin: auto;
+        display: grid;
+    }
+    .combo {
+        width: 20em;
+        height: 12em;
+        margin: 0 2em 2em;
+        font-size: 10px;
+    }
+    h2 {
+        font-size: small;
+    }
+    .combos div:hover {
+        width: 25em;
+        height: 15em;
+        margin: 2em auto;
+    }
 }
